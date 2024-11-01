@@ -1,0 +1,5 @@
+<select name="sepw_settings[images_size]" id="images_size">
+{% for s in sizes %}
+    <option value="{{ s }}" {% if size == s %}selected{% endif %}>{{ s }}</option>
+{% endfor %}
+</select>

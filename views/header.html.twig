@@ -1,0 +1,9 @@
+<h1>Simple Excel Pricelist for WooCommerce</h1>
+
+<div class="onest-banner">
+    <img src="{{ assets }}/banner-772x250.jpg" alt="onest logo" />
+</div>
+
+{% if not woocommerce %}
+<p class="text-danger"><strong>{{ __('Attention!') }}</strong> {{ __('This plugin required woocommerce installed.') }}</p>
+{% endif %}

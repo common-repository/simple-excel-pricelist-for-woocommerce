@@ -1,0 +1,9 @@
+{% if generated > 0 %}
+<p>{{ __('Last updated') }} —
+    <span id="sepw-generated-time">{{ generated|date("d.m.Y H:m:i") }}</span> (<a href="{{ link }}">{{ __('download') }}</a>).
+{% else %}
+<p>{{ __('Pricelist is not created yet.') }}</p>
+{% endif %}
+<div><button id="sepw-generate">{{ __('Refresh') }}</button></div>
+<div id="sepw-generate-ok">{{ __('Pricelist created successfully') }} (<a href="{{ link }}">{{ __('download') }}</a>).</div>
+<div id="sepw-generate-error">{{ __('An error occurred while updating the pricelist.') }}</div>

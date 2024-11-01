@@ -1,0 +1,26 @@
+{% if locale == 'ru_RU' %}
+<p>
+    Плагин создает excel прайслист всех товаров в наличии, и позволяет скачивать прайслист пользователям.<br/>
+    В прайслист выводятся как простые, так и вариативные товары со всеми вариациями, которые есть в наличии.<br/>
+    Прайслист создается один раз в определенный промежуток времени (параметр «Частота обновления прайслиста»).
+</p>
+<p>
+    Перегенерировать прайслист вручную можно, нажав кнопку <b>«Обновить прайслист»</b>.
+</p>
+<p>
+    Чтобы вывести на сайте ссылку на прайслист, используйте шорткод<br/>
+    <b>[pricelist class="BUTTON CLASS" title="BUTTON TITLE"]</b>.
+</p>
+{% else %}
+<p>
+    This plugin helps to create a price list of all products available in stock in excel
+    format and allows users to download the file.<br/>
+</p>
+<p>
+    To quickly update price list data there is a <b>«Refresh»</b> button.
+</p>
+<p>
+    In order to add a link to the price list on your website use a shortcode<br/>
+    <b>[pricelist class="BUTTON CLASS" title="BUTTON TITLE"]</b>.
+</p>
+{% endif %}

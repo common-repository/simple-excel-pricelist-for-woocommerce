@@ -1,0 +1,28 @@
+.sepw-wrap h1 {
+    margin-bottom: 16px !important;
+}
+.sepw-wrap .form-table label {
+    margin-right: 20px;
+}
+.sepw-wrap .form-table .checkbox-group {
+  white-space: nowrap;
+}
+.sepw-wrap .text-danger {
+  font-size: 20px;
+}
+.sepw-wrap .onest-banner img {
+  max-width: 100%;
+  height: auto;
+}
+#sepw-generate:disabled {
+  opacity: 0.5;
+}
+#sepw-generate-ok, #sepw-generate-error {
+  display: none;
+}
+#sepw-generate-ok {
+  color: #28a745;
+}
+#sepw-generate-error, .text-danger {
+  color: #dc3545;
+}

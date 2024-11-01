@@ -1,0 +1,7 @@
+{% for slug, title in fields %}   
+  <div class="checkbox-group"> 
+    <input type="checkbox" id="product_fields_{{ slug }}" name="sepw_settings[product_fields][]" value="{{ slug }}"
+        {% if slug in saved_fields %}checked{% endif %} />
+    <label for="product_fields_{{ slug }}">{{ title }}</label>
+  </div>
+{% endfor %}

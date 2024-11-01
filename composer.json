@@ -1,0 +1,31 @@
+{
+    "name": "prawas/xlsx-pricelist",
+    "require": {
+        "php": ">=5.5.9",
+        "phpoffice/phpspreadsheet": "^1.4",
+        "twig/twig": "1.35.4",
+        "prawas/onestexcelwriter": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Sasha Prawas",
+            "email": "sprawas@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://prawas@bitbucket.org/prawas/onestexcelwriter.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "classes/"
+        ]
+    }
+}
